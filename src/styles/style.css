@@ -1,0 +1,30 @@
+@import 'foodlist.css';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 32px auto;
+}
+
+.food-card {
+  margin-bottom: 20px;
+}
+
+.food-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.food-card h3 {
+  margin-top: 10px;
+}

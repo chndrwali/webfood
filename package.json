@@ -1,0 +1,35 @@
+{
+  "name": "webfood",
+  "version": "1.0.0",
+  "description": "this web for submission Dicoding",
+  "main": "app.js",
+  "scripts": {
+    "start-web": "webpack serve --config webpack.dev.js",
+    "build-web": "webpack --config webpack.prod.js"
+  },
+  "author": "Candra Wali Sanjaya",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.4",
+    "popper.js": "^1.16.1",
+    "regenerator-runtime": "^0.13.11",
+    "run": "^1.4.0",
+    "start-dev": "^1.0.0"
+  }
+}
